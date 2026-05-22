@@ -28,6 +28,19 @@ Or serve it locally with any static file server:
 npx serve .
 ```
 
+## Project Structure
+
+```
+hardwize-landing/
+├── index.html       # HTML markup
+├── css/
+│   └── style.css    # All styles (responsive, animations, layout)
+├── js/
+│   └── script.js    # JavaScript (navbar scroll effect)
+├── README.md        # You are here
+└── .gitignore       # Git ignore rules
+```
+
 ## Deployment
 
 This is a static site. Deploy to any hosting platform (GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.) by pointing it to the `index.html` file.
